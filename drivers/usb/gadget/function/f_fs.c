@@ -1847,6 +1847,7 @@ static int ffs_func_eps_enable(struct ffs_function *func)
 
 		if (needs_comp_desc)
 			ep->ep->comp_desc = comp_desc;
+		}
 
 		ret = usb_ep_enable(ep->ep);
 		if (likely(!ret)) {
