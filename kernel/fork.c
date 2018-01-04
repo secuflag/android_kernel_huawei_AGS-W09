@@ -87,7 +87,7 @@
 #define CREATE_TRACE_POINTS
 #include <trace/events/task.h>
 #ifdef CONFIG_HW_CGROUP_PIDS
-#include <./cgroup_huawei/cgroup_pids.h>
+#include "./cgroup_huawei/cgroup_pids.h"
 #endif
 
 #include <../block/blk-cgroup.h>
